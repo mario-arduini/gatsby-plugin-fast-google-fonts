@@ -1,0 +1,18 @@
+{
+  "name": "gatsby-plugin-fast-google-fonts",
+  "version": "1.0.0",
+  "description": "A simple Gatsby plugin to load google fonts in the best way for your google speed performance score",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "google-fonts",
+    "google",
+    "fonts",
+    "performance"
+  ],
+  "author": "Mario Arduini",
+  "license": "MIT"
+}
