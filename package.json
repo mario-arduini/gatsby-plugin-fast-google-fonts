@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "A simple Gatsby plugin to load google fonts in the best way for your google speed performance score",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mario-arduini/gatsby-plugin-fast-google-fonts.git"
+  },
+  "homepage": "https://github.com/mario-arduini/gatsby-plugin-fast-google-fonts",
+  "bugs": {
+    "url": "https://github.com/mario-arduini/gatsby-plugin-fast-google-fonts/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
