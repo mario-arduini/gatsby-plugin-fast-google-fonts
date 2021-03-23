@@ -19,7 +19,8 @@
     "google-fonts",
     "google",
     "fonts",
-    "performance"
+    "performance",
+    "fast"
   ],
   "author": "Mario Arduini",
   "license": "MIT",
