@@ -14,5 +14,8 @@
     "performance"
   ],
   "author": "Mario Arduini",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
 }
