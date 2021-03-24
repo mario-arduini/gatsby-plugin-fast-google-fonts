@@ -4,18 +4,21 @@ exports.onRenderBody = function ({ setHeadComponents }, options) {
   const link = options.link;
 
   const preconnect = React.createElement("link", {
+    key: "preconnect",
     rel: "preconnect",
     href: "https://fonts.gstatic.com",
-    crossOrigin: true,
+    crossOrigin: "",
   });
 
   const preload = React.createElement("link", {
+    key: "preload",
     rel: "preload",
     href: link,
     as: "style",
   });
 
   const defaultLink = React.createElement("link", {
+    key: "default",
     rel: "stylesheet",
     href: link,
     media: "print",
@@ -24,8 +27,9 @@ exports.onRenderBody = function ({ setHeadComponents }, options) {
     },
   });
 
-  const noScript = React.createElement("noscript", null, [
+  const noScript = React.createElement("noscript", { key: "noscriptdefault" }, [
     React.createElement("link", {
+      key: "noscriptlink",
       rel: "stylesheet",
       href: link,
     }),
